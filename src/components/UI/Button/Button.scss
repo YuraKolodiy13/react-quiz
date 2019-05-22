@@ -14,11 +14,6 @@
   &:active{
     box-shadow: inset 2px 2px 1px rgba(0,0,0, .3);
   }
-  &:disabled{
-    background-color: #ccc;
-    color: #000;
-    cursor: not-allowed;
-  }
   &.error{
     background: rgba(240,87,108, .7)
   }
@@ -28,5 +23,10 @@
   }
   &.success{
     background: rgba(161,240,69, .7)
+  }
+  &:disabled{
+    background-color: #ccc;
+    color: #000;
+    cursor: not-allowed;
   }
 }
