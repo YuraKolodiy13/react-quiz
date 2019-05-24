@@ -51,7 +51,7 @@ class Quiz extends Component{
         }
 
         window.clearTimeout(timeout);
-      }, 1000);
+      }, 500);
     }else {
       results[question.id] = 'error';
       this.setState({
