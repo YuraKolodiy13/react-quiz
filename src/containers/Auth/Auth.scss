@@ -20,10 +20,14 @@
   box-shadow: 2px 2px 2px rgba(0,0,0, .5);
   padding: 15px;
   border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   button{
-    margin-right: 0;
+    cursor: pointer;
+    transition: .3s;
+    &:last-of-type{
+      margin-right: 0;
+    }
+    &:hover{
+      opacity: .8;
+    }
   }
 }
