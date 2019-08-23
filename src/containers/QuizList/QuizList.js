@@ -3,7 +3,7 @@ import classes from './QuizList.scss'
 import {NavLink} from  'react-router-dom'
 import Loader from "../../components/UI/Loader/Loader";
 import {connect} from 'react-redux'
-import {fetchQuizes} from "../../actions";
+import {fetchQuizes} from "../../actions/quiz";
 
 class QuizList extends Component{
 

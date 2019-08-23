@@ -4,7 +4,7 @@ import ActiveQuiz from '../../components/ActiveQuiz/ActiveQuiz'
 import FinishedQuiz from '../../components/FinishedQuiz/FinishedQuiz'
 import Loader from "../../components/UI/Loader/Loader";
 import {connect} from 'react-redux'
-import {fetchQuizById, quizAnswerClick, retryQuiz} from "../../actions";
+import {fetchQuizById, quizAnswerClick, retryQuiz} from "../../actions/quiz";
 
 class Quiz extends Component{
 
